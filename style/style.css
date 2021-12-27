@@ -1,27 +1,86 @@
-html {
-    background-attachment: fixed;
-    background-image: linear-gradient(to bottom right, rgb(149, 213, 255)
-    , rgb(219, 128, 255));
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 14px;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: rgba(0, 0, 0, 1);
+    font-family: 'Open Sans', sans-serif;
 }
-.center-of-page {
-    text-align: center;
+
+.navbar {
+    background-color: darkblue;
+    color: white;
     display: flex;
-    flex-direction: column;
-    background-color: white;
-    display: flex;
+    justify-content: space-around;
     align-items: center;
-    margin: 5% 15%;
-    padding: 0% 5%;
-    border-radius: 10px;
+    font-size: 20px;
+}
+
+.website-title {
+    
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 10px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+@media all and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .navbar .container-logo{
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    .nav-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        display: none;
+    }
+
+    .nav-list .list-item {
+        display: block;
+        padding: 10px;
+        border-top: 1px solid white;
+    }
+
+    .active {
+        display: block;
+    }
 }
