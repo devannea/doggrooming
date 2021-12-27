@@ -1,0 +1,27 @@
+html {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, rgb(149, 213, 255)
+    , rgb(219, 128, 255));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 14px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+}
+.center-of-page {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 5% 15%;
+    padding: 0% 5%;
+    border-radius: 10px;
+}
