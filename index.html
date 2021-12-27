@@ -8,48 +8,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Devanne Aceves Dog Grooming</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div>
-                <a class="website-title" href="index.html">
-                    <p>Devanne Aceves</p>
-                    <p>Dog Grooming</p>
-                </a>
-            </div>
-            <ul class="nav-list" id="navi-list">
-                <li class="list-item">
-                    <a href="src/service.html">My Service</a>
-                </li>
-                <li class="list-item">
-                    <a href="src/about.html">About Me</a>
-                </li>
-                <li class="list-item">
-                    <a href="src/contact.html">Contact Me</a>
-                </li>
-            </ul>
-            <div class="menu" id="toggleButton">
-                <div class="menu-line"></div>
-                <div class="menu-line"></div>
-                <div class="menu-line"></div>
-            </div>
-        </nav>
-    </header>
-    <main>
+    <nav class="navbar">
+        <ul>
+            <li class="website-name">Devanne Aceves Dog Grooming</li>
+            <li class="navbar-toggle"><i class="fa fa-bars"></i></li>
+            <li class="navbar-links"><a class="current-page">Home</a></li>
+            <li class="navbar-links"><a href="">Services</a></li>
+            <li class="navbar-links"><a href="">About</a></li>
+            <li class="navbar-links"><a href="">Contact</a></li>
+        </ul>
+    </nav>
     
-    </main>
-    <footer>
-       
-    </footer>
 </body>
 <script>
-    const toggleButton = document.getElementById('toggleButton')
-    const navList = document.getElementById('navi-list')
-
-    toggleButton.addEventListener('click', () => {
-        navList.classList.toggle('active');
+    const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
+    const navbarLinks = document.getElementsByClassName('navbar-links');
+    toggleButton.addEventListener('click', function() {
+        for(var i=0; i<navbarLinks.length; i++)
+        navbarLinks[i].classList.toggle('active');
     })
 </script>
 </html>
