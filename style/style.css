@@ -2,84 +2,54 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-body {
     font-family: 'Open Sans', sans-serif;
 }
-
-.navbar {
-    background-color: darkblue;
-    color: white;
+nav {
+    border-bottom: 1px solid lightgray;
+}
+.navbar ul {
     display: flex;
-    justify-content: space-around;
+    width: 100%;
     align-items: center;
-    font-size: 20px;
 }
-
-.website-title {
-    
-}
-
-.nav-list {
+.navbar li {
     list-style-type: none;
-}
-
-.nav-list .list-item {
-    display: inline-block;
-    padding: 20px 10px;
+    padding: 1rem;
 }
 .navbar a {
-    color: white;
     text-decoration: none;
 }
-
-.navbar a:hover {
-    color: aqua;
+.website-name {
+    flex: 1;
+    font-size: 1.5rem;
+    user-select: none;
+    color: coral;
 }
-
-.menu {
+.current-page {
+    color: coral;
+}
+.navbar-toggle {
     display: none;
 }
-
-.menu-line {
-    width: 20px;
-    height: 3px;
-    background-color: white;
-    margin-bottom: 4px;
+.navbar-links:hover a {
+    color: coral;
 }
-
-@media all and (max-width: 600px) {
-    .navbar {
-        flex-direction: column;
-        position: relative;
+@media (max-width: 600px) {
+    .navbar ul {
+        flex-wrap: wrap;
     }
-
-    .navbar .container-logo{
-        width: 100%;
+    .navbar-links {
+        border-top: 1px solid lightgray;
     }
-
-    .menu {
+    .navbar-toggle {
         display: block;
-        position: absolute;
-        right: 15px;
-        top: 15px;
+        color: coral;
     }
-
-    .nav-list {
-        list-style-type: none;
+    .navbar-links {
+        display: none;
         width: 100%;
         text-align: center;
-        padding-top: 10px;
-        display: none;
     }
-
-    .nav-list .list-item {
-        display: block;
-        padding: 10px;
-        border-top: 1px solid white;
-    }
-
     .active {
         display: block;
     }
