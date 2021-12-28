@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Devanne Aceves Dog Grooming</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="website-name">Devanne Aceves Dog Grooming</li>
+            <li class="navbar-toggle"><i class="fa fa-bars"></i></li>
+            <li class="navbar-links"><a href="../index.html">Home</a></li>
+            <li class="navbar-links"><a href="">Services</a></li>
+            <li class="navbar-links"><a class="current-page">About</a></li>
+            <li class="navbar-links"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="about-container">
+        <p class="page-title">About Me</p>
+        <img class="devanne" src="../images/Devanne.jpeg" alt="Picture of Devanne" />
+        <p class="paragraph">
+            Hello, my name is Devanne and I have been grooming dogs for 14 months. I enjoy the work that I do and am always jumping at opportunities to learn something new. I take a holistic approach to dog grooming; I consider the dog's physical, emotional, mental, and social health.
+        </p>
+        <p class="paragraph">
+            Like many dog groomers, I believe in humanity over vanity. I will always prioritize your dog's comfort and health above everything else. Dog grooming can be very stressful for some dogs, so I do my best to offer them reassurance and to build their confidence and trust.
+        </p>
+        <p class="paragraph">
+            I am an AKC S.A.F.E. certified dog groomer. I am knowledgable of and able to accomodate dogs in different stages of life and with varying conditions, such as: puppies and senior dogs, brachycephallic breeds, dogs that may experience seizures, dogs with a collapsed trachea, allergies, hypothyroidism, candida, cushing's disease, addison's disease, diabetes, or hypoglycemia.
+        </p>
+        <iframe class="pdf" src="../media/AKC_SAFE_Certificate.pdf#toolbar=0"></iframe>
+    </div>
+</body>
+<script>
+    const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
+    const navbarLinks = document.getElementsByClassName('navbar-links');
+    toggleButton.addEventListener('click', function() {
+        for(var i=0; i<navbarLinks.length; i++)
+        navbarLinks[i].classList.toggle('active');
+    })
+</script>
+</html>
