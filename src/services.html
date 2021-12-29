@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style/services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Devanne Aceves Dog Grooming</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="website-name">Devanne Aceves Dog Grooming</li>
+            <li class="navbar-toggle"><i class="fa fa-bars"></i></li>
+            <li class="navbar-links"><a href="../index.html">Home</a></li>
+            <li class="navbar-links"><a class="current-page">Services</a></li>
+            <li class="navbar-links"><a href="./about.html">About</a></li>
+            <li class="navbar-links"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="services-container">
+        <p class="page-title">Services</p>
+        <ul class="list">
+            <span class="service-name">Full Service Bath & Haircut</span><br/>
+            *Prices vary*<br/>
+            This service includes:
+            <li>nail clipping/ grinding</li>
+            <li>ear cleaning/ ear hair removal</li>
+            <li>bath with shampoo & conditioner</li>
+            <li>blow dry & brush out</li>
+            <li>a cute haircut</li>
+            <br/>
+            <span class="service-name">Full Service Bath & Tidy</span><br/>
+            *Prices vary*<br/>
+            This service includes:
+            <li>nail clipping/ grinding</li>
+            <li>ear cleaning/ ear hair removal</li>
+            <li>bath with shampoo & conditioner</li>
+            <li>blow dry & brush out</li>
+            <li>face, feet, & sanitary trim</li>
+            <br/>
+            <span class="service-name">A La Carte Services</span><br/>
+            The following services do not include a bath:
+            <li>$20 tidy (includes all services listed below)</li>
+            <li>$10 face, feet, & sanitary trim</li>
+            <li>$10 fluff up & brush out</li>
+            <li>$5 ear cleaning/ ear hair removal</li>    
+            <li>$5 nail clipping/ grinding</li>        
+        </ul>
+    </div>
+</body>
+<script>
+    const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
+    const navbarLinks = document.getElementsByClassName('navbar-links');
+    toggleButton.addEventListener('click', function() {
+        for(var i=0; i<navbarLinks.length; i++)
+        navbarLinks[i].classList.toggle('active');
+    })
+</script>
+</html>

@@ -34,23 +34,27 @@ nav {
 .navbar-links:hover a {
     color: coral;
 }
-.contact-container {
+.services-container {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 40vh;
+    height: 100vh;
     color: gray;
 }
 .page-title {
     font-size: 1.5rem;
     color: coral;
 }
-.paragraph {
+.list {
     width: 50%;
+    text-align: center;
 }
-.contact-info {
-    text-decoration: none;
+.list li {
+    list-style-type: none;
+}
+.service-name {
+    font-size: 1.5rem;
     color: coral;
 }
 @media (max-width: 600px) {
@@ -73,12 +77,12 @@ nav {
     .active {
         display: block;
     }
-    .contact-container {
+    .services-container {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 50vh;
+        height: 100vh;
         color: gray;
     }
     .paragraph {
