@@ -34,6 +34,54 @@ nav {
 .navbar-links:hover a {
     color: coral;
 }
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 140vh;
+    color: gray;
+}
+.welcome {
+    font-size: 1.5rem;
+    color: coral;
+}
+.holiday-greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    width: 50%;
+    background-color: coral;
+    color: white;
+    border-radius: 15px;
+}
+.bubby {
+    height: 300px;
+    border-radius: 5px;
+}
+.cta {
+    font-size: 1.5rem;
+    color: coral;
+}
+.cta-button {
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    width: 25%;
+    line-height: 50px;
+    background-color: coral;
+    color: white;
+    border-radius: 15px;
+}
+.service-name {
+    font-size: 1.5rem;
+    color: coral;
+}
+.service-description {
+    width: 50%;
+}
 @media (max-width: 600px) {
     .navbar ul {
         flex-wrap: wrap;
@@ -53,5 +101,26 @@ nav {
     }
     .active {
         display: block;
+    }
+    .home-container {
+        height: 150vh;
+    }
+    .holiday-greeting {
+        height: 40vh;
+        width: 70%;
+    }
+    .bubby {
+        height: 250px;
+    }
+    .cta {
+        width: 70%;
+        text-align: center;
+    }
+    .cta-button {
+        width: 50%;
+        line-height: 30px;
+    }
+    .service-description {
+        width: 70%;
     }
 }
