@@ -67,6 +67,7 @@ nav {
     .navbar-toggle {
         display: block;
         color: coral;
+        font-size: 1.5rem;
     }
     .navbar-links {
         display: none;
@@ -81,7 +82,7 @@ nav {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 270vh;
+        height: 200vh;
         color: gray;
     }
     .devanne {
