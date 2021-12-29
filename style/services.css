@@ -39,7 +39,7 @@ nav {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 100vh;
+    height: 110vh;
     color: gray;
 }
 .page-title {
@@ -86,7 +86,7 @@ nav {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 100vh;
+        height: 110vh;
         color: gray;
     }
     .paragraph {
