@@ -46,6 +46,10 @@ nav {
     font-size: 1.5rem;
     color: coral;
 }
+.contact-link {
+    text-decoration: none;
+    color: coral;
+}
 .list {
     width: 50%;
     text-align: center;
