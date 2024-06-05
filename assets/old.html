@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/05d232fcc0.js" crossorigin="anonymous"></script>
+    <title>Devanne Aceves Dog Grooming</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li class="website-name">Devanne Aceves Dog Grooming <i class="fas fa-paw"></i></li>
+            <li class="navbar-toggle"><i class="fa fa-bars"></i></li>
+            <li class="navbar-links"><a class="current-page">Home</a></li>
+            <li class="navbar-links"><a href="src/services.html">Services</a></li>
+            <li class="navbar-links"><a href="src/about.html">About</a></li>
+            <li class="navbar-links"><a href="src/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="home-container">
+        <p class="welcome">Welcome!</p>
+        <div class="holiday-greeting">
+            <img class="bubby" src="images/Bubby.jpeg" alt="Bubby">
+            <p>
+                "Wishing you a wonderful holiday!"<br/>
+                - Devanne and Bubby <i class="fas fa-heart"></i>
+            </p>
+        </div>
+        <p class="cta">Get your dog cleaned up for the holidays!</p>
+        <a href="https://www.petco.com/shop/PetcoServicesBookGroomingView?catalogId=10051&storeId=10151&langId=-1" target="_blank" class="cta-button">Book an Appointment Today!</a>
+        <p class="service-name">House Call Grooming</p>
+        <p class="service-description">
+            Devanne eliminates environmental/ social anxiety and stressors from grooming. She brings her equipment to your house and completes all grooming services for your dog in the comfort of your home. Instead of being kenneled and surrounded by the smells and sounds of other dogs, your dog will be given a one-on-one session with Devanne as she takes the time to care for and get to know your dog.
+        </p>
+        <p class="service-name">In-Home Grooming</p>
+        <p class="service-description">
+            Don't want fur in your house? Drop off your dog and leave the mess to Devanne. Your dog will not be booked alongside other dogs and all services will be completed straight through in a timely manner. You will receive a call or text letting you know that your dog's time with Devanne is coming to an end so that you can pick them up once the service is completed. 
+        </p>
+    </div>
+</body>
+<script>
+    const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
+    const navbarLinks = document.getElementsByClassName('navbar-links');
+    toggleButton.addEventListener('click', function() {
+        for(var i=0; i<navbarLinks.length; i++)
+        navbarLinks[i].classList.toggle('active');
+    })
+</script>
+</html>
