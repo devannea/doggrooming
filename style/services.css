@@ -1,95 +1,31 @@
-* {
-    box-sizing: border-box;
+h1 {
+    color: #FF0080;;
+}
+h2, h3 {
+    color: #FF5580;
+}
+p {
+    color: #FFAA80;
+}
+.add-ons, .paw-care {
+    list-style: none;
     padding: 0;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
 }
-nav {
-    border-bottom: 1px solid lightgray;
+.add-ons > li.add-on-item, .paw-care > li.paw-care-item {
+    color: #FFAA80;
 }
-.navbar ul {
-    display: flex;
-    width: 100%;
-    align-items: center;
+#price {
+    color: #FF5580;
 }
-.navbar li {
-    list-style-type: none;
-    padding: 1rem;
-}
-.navbar a {
+#video-link {
     text-decoration: none;
 }
-.website-name {
-    flex: 1;
-    font-size: 1.5rem;
-    user-select: none;
-    color: coral;
+.accordion-button, #video-link {
+    color: #FF0080;
 }
-.current-page {
-    color: coral;
+.accordion-body{
+    color: #FFAA80;
 }
-.navbar-toggle {
-    display: none;
-}
-.navbar-links:hover a {
-    color: coral;
-}
-.services-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 120vh;
-    color: gray;
-}
-.page-title {
-    font-size: 1.5rem;
-    color: coral;
-}
-.contact-link {
-    text-decoration: none;
-    color: coral;
-}
-.list {
-    width: 50%;
-    text-align: center;
-}
-.list li {
-    list-style-type: none;
-}
-.service-name {
-    font-size: 1.5rem;
-    color: coral;
-}
-@media (max-width: 600px) {
-    .navbar ul {
-        flex-wrap: wrap;
-    }
-    .navbar-links {
-        border-top: 1px solid lightgray;
-    }
-    .navbar-toggle {
-        display: block;
-        color: coral;
-        font-size: 1.5rem;
-    }
-    .navbar-links {
-        display: none;
-        width: 100%;
-        text-align: center;
-    }
-    .active {
-        display: block;
-    }
-    .services-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 110vh;
-        color: gray;
-    }
-    .list {
-        width: 70%;
-    }
+.accordion-body > strong {
+    color: #FF0080;
 }
