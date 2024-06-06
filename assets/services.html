@@ -3,65 +3,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/services.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/05d232fcc0.js" crossorigin="anonymous"></script>
     <title>Devanne Aceves Dog Grooming</title>
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-            <li class="website-name">Devanne Aceves Dog Grooming <i class="fas fa-paw"></i></li>
-            <li class="navbar-toggle"><i class="fa fa-bars"></i></li>
-            <li class="navbar-links"><a href="../index.html">Home</a></li>
-            <li class="navbar-links"><a class="current-page">Services</a></li>
-            <li class="navbar-links"><a href="./about.html">About</a></li>
-            <li class="navbar-links"><a href="./contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="services-container">
-        <p class="page-title">Services</p>
-        <ul class="list">
-            Please feel free to <a class="contact-link" href="./contact.html">contact me</a> to ask about pricing and availability.<br/><br/>
-            <span class="service-name">Full Service Bath & Haircut</span><br/>
-            *Prices vary*<br/>
-            This service includes:
-            <li>nail clipping/ grinding</li>
-            <li>ear cleaning/ ear hair removal</li>
-            <li>bath with shampoo & conditioner</li>
-            <li>blow dry & brush out</li>
-            <li>a cute haircut</li>
-            <li>a spritz of dog cologne</li>
-            <br/>
-            <span class="service-name">Full Service Bath & Tidy</span><br/>
-            *Prices vary*<br/>
-            This service includes:
-            <li>nail clipping/ grinding</li>
-            <li>ear cleaning/ ear hair removal</li>
-            <li>bath with shampoo & conditioner</li>
-            <li>blow dry & brush out</li>
-            <li>face, feet, & sanitary trim</li>
-            <li>a spritz of dog cologne</li> 
-            <br/>
-            <span class="service-name">A La Carte Services</span><br/>
-            The following services do not include a bath:
-            <li>$20 tidy (includes all services listed below and a spritz of dog cologne)</li>
-            <li>$10 face, feet, & sanitary trim</li>
-            <li>$10 fluff up & brush out</li>
-            <li>$5 ear cleaning/ ear hair removal</li>    
-            <li>$5 nail clipping/ grinding</li>        
-        </ul>
-    </div>
+    <header>
+        <div class="px-3 py-2 border-bottom" style="background-color:#FFAA80">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="../index.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M226.5 92.9c14.3 42.9-.3 86.2-32.6 96.8s-70.1-15.6-84.4-58.5s.3-86.2 32.6-96.8s70.1 15.6 84.4 58.5zM100.4 198.6c18.9 32.4 14.3 70.1-10.2 84.1s-59.7-.9-78.5-33.3S-2.7 179.3 21.8 165.3s59.7 .9 78.5 33.3zM69.2 401.2C121.6 259.9 214.7 224 256 224s134.4 35.9 186.8 177.2c3.6 9.7 5.2 20.1 5.2 30.5v1.6c0 25.8-20.9 46.7-46.7 46.7c-11.5 0-22.9-1.4-34-4.2l-88-22c-15.3-3.8-31.3-3.8-46.6 0l-88 22c-11.1 2.8-22.5 4.2-34 4.2C84.9 480 64 459.1 64 433.3v-1.6c0-10.4 1.6-20.8 5.2-30.5zM421.8 282.7c-24.5-14-29.1-51.7-10.2-84.1s54-47.3 78.5-33.3s29.1 51.7 10.2 84.1s-54 47.3-78.5 33.3zM310.1 189.7c-32.3-10.6-46.9-53.9-32.6-96.8s52.1-69.1 84.4-58.5s46.9 53.9 32.6 96.8s-52.1 69.1-84.4 58.5z"/></svg>
+                <span class="fs-4">Devanne Aceves Dog Grooming</span>
+              </a>
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li>
+                  <a href="../index.html" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1 bi-house-door-fill" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
+                    </svg>
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" style="color: #FF5580;">
+                    <svg class="bi d-block mx-auto mb-1 bi-scissors" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi d-block mx-auto mb-1 bi-scissors" viewBox="0 0 16 16">
+                        <path d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"/>
+                    </svg>
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="./about.html" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1 bi-file-person-fill" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"  viewBox="0 0 16 16">
+                        <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11"/>
+                    </svg>
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1 bi-chat-dots-fill" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"  viewBox="0 0 16 16">
+                        <path d="M16 8c0 3.866-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                    </svg>
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="container px-4 py-5" id="featured-3">
+            <h1 class="pb-2 border-bottom">Give Your Dog A Spa Day!</h1>
+            <div class="row g-4 py-4 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+                <h2 class="fs-2">Complete Glow-Up</h2>
+                <p>This service includes a bath with shampoo & conditioner, a blow dry & brush out, and a haircut styled to suit your dog's lifestyle and your preferences.</p>
+                <h3 class="fs-5">Prices Vary</h3>
+              </div>
+              <div class="feature col">
+                <h2 class="fs-2">Bubble Bath & Brush</h2>
+                <p>This service includes a bath with shampoo & conditioner, a blow dry & brush out, a face trim, a paw pad shave & feet trim, and a sanitary shave.</p>
+                <h3 class="fs-5">Prices Vary</h3>
+              </div>
+              <div class="feature col">
+                <h2 class="fs-2">Mini Glow-Up</h2>
+                <p>This service includes a fluff dry and brush out (a dog's version of a blow out), and a face trim, paw pad shave & feet trim, and a sanitary trim.</p>
+                <h3 class="fs-5">$40</h3>
+              </div>
+            </div>
+            <p class="pb-5">All services above include ear cleaning, nail clip/ file, paw balm, teeth brushing, a spritz of pet cologne, and a bow/ bow tie. <span id="price">Puppies (4 - 16 weeks) are half price!</span></p>
+            <h2 class="fs-2 pb-2 border-bottom">A La Carte Services For Extra Pampering</h2>
+            <ul class="add-ons fs-5">
+                <li class="add-on-item">Anal Gland Expression <span id="price">$30</span><p class="fs-6">Recommended for small breeds, especially if you notice your dog scooting or having a fishy smell</p></li>
+                <li class="add-on-item">Flea & Tick Treatment <span id="price">$25</span><p class="fs-6">Recommended as a treatment or preventative for fleas & ticks; works best when you treat your home/ area your pet spends most of their time</p></li>
+                <li class="add-on-item">De-Shedding Upgrade <span id="price">$20</span><p class="fs-6">Recommended for double coat & heavy coat breeds; includes a shed reducing shampoo & conditioner and extra brushing to remove excess coat</p></li>
+                <li class="add-on-item">CBD Oil Shampoo <span id="price">$10</span><p class="fs-6">Recommended for senior dogs and nervous dogs</p></li>
+                <li class="add-on-item">Blueberry Facial <span id="price">$10</span><p class="fs-6">Recommended for dogs that get crusties around their eyes or food build up around their mouth</p></li>
+            </ul>
+            <h2 class="fs-2 pt-5 pb-2 border-bottom">Touch Up Between Appointments</h2>
+            <ul class="paw-care fs-5">
+                <li class="paw-care-item">Paw Care Package <span id="price">$30</span><p class="fs-6">Includes paw pad shave, paw trim, paw balm, a nail clip/ file, and a spritz of pet cologne</p></li>
+                <li class="paw-care-item">Brush Out <span id="price">$25</span><p class="fs-6">Recommended for long coat breeds and shedding dogs, includes a complete body brush out and a spritz of pet cologne</p></li>
+                <li class="paw-care-item">Nail Clip/ File <span id="price">$20</span></li>
+                <li class="paw-care-item">Nail Clip Only <span id="price">$15</span></li>
+                <li class="paw-care-item">Ear Cleaning Only <span id="price">$10</span><p class="fs-6">Includes ear hair removal if requested</p></li>
+            </ul>
+            <h2 class="fs-2 pt-5 pb-2 border-bottom">Frequently Asked Questions</h2>
+            <div class="accordion pt-3" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What Do I Need For An Appointment? Are Vaccinations Required?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Please be prepared to present proof of a <strong>rabies vaccination</strong> for your pet. A hard copy/ digital copy of a rabies vaccine certificate or other vet clinic document must show the expiration date for the rabies vaccine. A rabies tag can be accepted as proof if the pet's name is engraved on the tag, otherwise <strong>tags are not acceptable</strong> proof of vaccination. Puppies under 4 months of age are not required to have a rabies vaccination.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      How Soon Should I Have My Puppy Groomed?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      It is recommended to begin having your puppy groomed <strong>as soon as possible</strong>. Early exposure to grooming will help your puppy to be confident during appointments and can reduce the probability of stress or fear. It is important to inform your groomer that it is your puppy's first time being groomed. A slow introduction to loud devices like clippers or the nail dremel is imperative for your puppy to have a successful session.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      How Often Should My Dog Be Groomed?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      The time between appointments is determined by the type of style you want to achieve and are interested in maintaining. A style that is very fluffy and very high maintenance would require more frequent visits (generally every 4 weeks) than a style that is very short and lower maintenance (every 8 weeks). To maintain a long coat style, I recommend brushing once a day, or a very thorough brush out once a week. You can book a brush out session between grooming appointments if the task is too time consuming.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                        How To Brush A Dog Correctly (Long/ Curly Coat)
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Brushing dogs with long or curly coats does not come naturally, but with the right tools and technique, this time-consuming task can become a wonderful bonding opportunity for you and your pet.<br>
+                        <strong>Tools Needed:</strong>
+                        <ul>
+                            <li>Long Pin Slicker Brush - ideal for removing any debris built up in the coat and for removing tangles</li>
+                            <li>A Metal Comb - sometimes called a poodle comb or a greyhound comb, depends on the length of the teeth</li>
+                            <li>Leave-In Conditioner or Detangling Spray - helps to make the hair slick and easier to brush through if tangled</li>
+                        </ul>
+                        When brushing your dog, you will want to use a technique called line brushing - this method allows you to work in sections around your dog's face and body, and to brush beyond the surface of the coat down to the skin. There are several YouTube videos on the subject, but I'll link <a id="video-link" href="https://youtu.be/vY-Vzc-1nU0?si=26Y3Mw6UXz-zkdLR">a tutorial on how to line brush here</a>.<br>
+                        If you cannot glide your comb through your dog's coat, I cannot get my clipper guard through it. This means a longer style would be difficult to achieve.
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
+                        Can You De-Mat My Dog?
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Though it is sometimes possible to save coats that are tangled, a matted coat is very different. Until actually seeing and feeling a dog's coat, I cannot judge the severity of the matting. I will not shave a matted dog without informing the pet parent that I recommend a fresh start and getting permission to do so. To shave a matted dog, there is a $15 fee added to the cost of the service. If the coat can be saved, the <strong>de-matting fee</strong> is $1/minute of brush out time; so if I spend 60 minutes de-matting a dog, it is $60 added to the cost of the service.
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseOne">
+                        My Dog Has Fleas - What You Need To Know
+                      </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>What Are Fleas?</strong><br>
+                        A flea is a tiny insect and is the most common parasite found on our pets. They can jump up to 200 times their body length.<br>
+                        <strong>How Do Fleas Spread?</strong><br>
+                        Flea eggs and larvae fall from a host's body onto the ground, then latch onto their next host. Adult fleas jump from host to host to lay eggs. Fleas can lay 40 - 60 eggs per day.<br>
+                        <strong>What Diseases Do Fleas Transmit/ Cause?</strong><br>
+                        <ul class="diseases">
+                            <li class="disease-item">Tapeworms</li>
+                            <li class="disease-item">Bartonella</li>
+                            <li class="disease-item">Anemia</li>
+                        </ul>
+                        <strong>Can Indoor Pets Get Fleas?</strong><br>
+                        Yes, though uncommon, flea eggs and larvae can latch onto clothing items like shoes or other pets and spread that way.<br>
+                        <strong>Did You Know:</strong><br>
+                        The fleas you can see on your pet only make up for 5% of the total population infesting your pet's living space. Flea eggs can be found in crevices between wooden planks, in grout lines for tile, or in carpet. Do not only treat your pet for fleas, but your home and or yard, too!<br>
+                        <strong>How To Prevent Fleas:</strong><br>
+                        There are topical and chewable flea preventatives for dogs and cats. Most protect against fleas for one month or longer. Speak to your vet about the different options availble for your pet. If you are interested in booking for a flea & tick treatment, be sure to treat the area your pet spends most of their time in too!
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseOne">
+                        My Pet Has Long Nails
+                      </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Long Nails Can Cause:</strong>
+                        <ul>
+                            <li>Pain</li>
+                            <li>Splayed or deformed feet</li>
+                            <li>Reduced traction</li>
+                            <li>Injured tendons</li>
+                            <li>Arthritis</li>
+                        </ul>
+                        You can prevent this with regular nail clipping, every 2 - 3 weeks until the quick (vein) recedes into the nail.<br>
+                        When clipping nails, clip the nail just beyond the curve of the nail. Use styptic powder to stop the bleeding if you clip too far.<br>
+                        If you do not have styptic powder, you can use flour or cornstarch as a subsitute.<br>
+                        <strong>With very long nails:</strong>
+                        <ul>
+                            <li>The quick (vein) may grow into the nail, eventually making it almost impossible to cut the nail without cutting the quick as well</li>
+                            <li>The nail may grow into the paw pad</li>
+                        </ul>
+                        <strong>Benefits of having your pet's nails filed:</strong>
+                        <ul>
+                            <li>Eliminates the jagged/ sharp edges of the nails</li>
+                            <li>Lasts longer than only clipping the nails</li>
+                            <li>Easier to avoid the quick (vein)</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+
+        
+            
+      </main>
+
+      <footer class="px-3 py-2 text-white" style="background-color:#FFAA80">
+        <div class="container">
+            <div class="text-center pb-3 mb-3">
+              <a class="text-white" href="https://www.facebook.com/devanneacevesdoggrooming"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi my-2 bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg></a>
+              <p style="color: #FF5580;">©2024 Devanne Aceves Dog Grooming</p>
+            </div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-<script>
-    const toggleButton = document.getElementsByClassName('navbar-toggle')[0];
-    const navbarLinks = document.getElementsByClassName('navbar-links');
-    toggleButton.addEventListener('click', function() {
-        for(var i=0; i<navbarLinks.length; i++)
-        navbarLinks[i].classList.toggle('active');
-    })
-</script>
 </html>
+
