@@ -1,87 +1,47 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-nav {
-    border-bottom: 1px solid lightgray;
-}
-.navbar ul {
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
-.navbar li {
-    list-style-type: none;
-    padding: 1rem;
-}
-.navbar a {
-    text-decoration: none;
-}
-.website-name {
-    flex: 1;
-    font-size: 1.5rem;
-    user-select: none;
-    color: coral;
+.bgcfill {
+    /* background-color:#FFAA80; */
+    background-color: #FF008E;
 }
 .current-page {
-    color: coral;
+    /* color:#FF5580; */
+    color: #612897;
+    pointer-events: none;
 }
-.navbar-toggle {
-    display: none;
+h1, h2 {
+    /* color: #FF0080; */
+    color: #612897;
 }
-.navbar-links:hover a {
-    color: coral;
+.text-btn {
+    /* background-color: #FF5580; */
+    background-color: #FF008E;
 }
-.contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 40vh;
-    color: gray;
+.text-btn:hover {
+    background-color: #612897;
 }
-.page-title {
-    font-size: 1.5rem;
-    color: coral;
+.facebook-btn {
+    /* border-color: #FFAA80;
+    color: #FFAA80; */
+    border-color: #612897;
+    color: #612897;
 }
-.paragraph {
-    width: 50%;
+.facebook-btn:hover {
+    border-color: #FF008E;
+    color: #FF008E;
 }
-.contact-info {
+h3 {
+    /* color: #FF5580; */
+    color: #0C1E7F;
+}
+p {
+    /* color: #FFAA80; */
+    color: #0C1E7F;
+}
+#cr {
+    /* color: #FF5580; */
+    color: #612897;
+}
+.mail-to {
     text-decoration: none;
-    color: coral;
-}
-@media (max-width: 600px) {
-    .navbar ul {
-        flex-wrap: wrap;
-    }
-    .navbar-links {
-        border-top: 1px solid lightgray;
-    }
-    .navbar-toggle {
-        display: block;
-        color: coral;
-        font-size: 1.5rem;
-    }
-    .navbar-links {
-        display: none;
-        width: 100%;
-        text-align: center;
-    }
-    .active {
-        display: block;
-    }
-    .contact-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 50vh;
-        color: gray;
-    }
-    .paragraph {
-        width: 70%;
-    }
+    color: #FF008E;
+    font-weight: bold;
 }
