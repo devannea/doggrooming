@@ -1,99 +1,25 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-nav {
-    border-bottom: 1px solid lightgray;
-}
-.navbar ul {
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
-.navbar li {
-    list-style-type: none;
-    padding: 1rem;
-}
-.navbar a {
-    text-decoration: none;
-}
-.website-name {
-    flex: 1;
-    font-size: 1.5rem;
-    user-select: none;
-    color: coral;
+.bgcfill {
+    /* background-color:#FFAA80; */
+    background-color: #FF008E;
 }
 .current-page {
-    color: coral;
+    /* color:#FF5580; */
+    color: #612897;
+    pointer-events: none;
 }
-.navbar-toggle {
-    display: none;
+h1, h2 {
+    /* color: #FF0080; */
+    color: #612897;
 }
-.navbar-links:hover a {
-    color: coral;
+h3 {
+    /* color: #FF5580; */
+    color: #0C1E7F;
 }
-.about-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 170vh;
-    color: gray;
+p {
+    /* color: #FFAA80; */
+    color: #0C1E7F;
 }
-.page-title {
-    font-size: 1.5rem;
-    color: coral;
-}
-.devanne {
-    height: 300px;
-    border-radius: 50%;
-}
-.paragraph {
-    width: 50%;
-}
-.pdf {
-    width: 25%; 
-    height: 400px;
-}
-@media (max-width: 600px) {
-    .navbar ul {
-        flex-wrap: wrap;
-    }
-    .navbar-links {
-        border-top: 1px solid lightgray;
-    }
-    .navbar-toggle {
-        display: block;
-        color: coral;
-        font-size: 1.5rem;
-    }
-    .navbar-links {
-        display: none;
-        width: 100%;
-        text-align: center;
-    }
-    .active {
-        display: block;
-    }
-    .about-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 200vh;
-        color: gray;
-    }
-    .devanne {
-        height: 270px;
-        border-radius: 50%;
-    }
-    .paragraph {
-        width: 70%;
-    }
-    .pdf {
-        width: 70%; 
-        height: 400px;
-    }
+#cr {
+    /* color: #FF5580; */
+    color: #612897;
 }
