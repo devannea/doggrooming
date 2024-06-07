@@ -1,6 +1,10 @@
+:root {
+    --background-color: #C65BCF;
+}
+
 .bgcfill {
     /* background-color:#FFAA80; */
-    background-color: #C65BCF;
+    background-color: var(--background-color);
 }
 .current-page {
     /* color:#FF5580; */
