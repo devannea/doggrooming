@@ -1,0 +1,50 @@
+:root {
+  --background-color: #C65BCF;
+}
+
+.bgcfill {
+  /* background-color:#FFAA80; */
+  background-color: var(--background-color);
+}
+.current-page {
+  /* color:#FF5580; */
+  color: #612897;
+  pointer-events: none;
+}
+h1, h2 {
+  /* color: #FF0080; */
+  color: #612897;
+}
+h3 {
+  /* color: #FF5580; */
+  color: #0C1E7F;
+}
+.booking-btn {
+  /* background-color: #FF5580; */
+  background-color: #FF008E;
+}
+.booking-btn:hover {
+  background-color: #612897;
+}
+.service-btn {
+  /* border-color: #FFAA80;
+  color: #FFAA80; */
+  border-color: #612897;
+  color: #612897;
+}
+.service-btn:hover {
+  border-color: #FF008E;
+  color: #FF008E;
+}
+p {
+  /* color: #FFAA80; */
+  color: #0C1E7F;
+}
+.icon > svg {
+  /* fill: #FF5580; */
+  fill: #FF008E;
+}
+#cr {
+  /* color: #FF5580; */
+  color: #612897;
+}
