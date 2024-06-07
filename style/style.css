@@ -1,0 +1,39 @@
+.bgcfill {
+    /* background-color:#FFAA80; */
+    background-color: #FF008E;
+}
+.current-page {
+    /* color:#FF5580; */
+    color: #612897;
+    pointer-events: none;
+}
+h1, h2 {
+    /* color: #FF0080; */
+    color: #612897;
+}
+h3 {
+    /* color: #FF5580; */
+    color: #0C1E7F;
+}
+.booking-btn {
+    /* background-color: #FF5580; */
+    background-color: #FF008E;
+}
+.service-btn {
+    /* border-color: #FFAA80;
+    color: #FFAA80; */
+    border-color: #612897;
+    color: #612897;
+}
+p {
+    /* color: #FFAA80; */
+    color: #0C1E7F;
+}
+.icon > svg {
+    /* fill: #FF5580; */
+    fill: #FF008E;
+}
+#cr {
+    /* color: #FF5580; */
+    color: #612897;
+}
