@@ -1,10 +1,10 @@
 .bgcfill {
     /* background-color:#FFAA80; */
-    background-color: #C65BCF;
+    background-color: #612897;
 }
 .current-page {
     /* color:#FF5580; */
-    color: #612897;
+    color: #C65BCF;
     pointer-events: none;
 }
 h1, h2 {

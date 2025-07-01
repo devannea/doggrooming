@@ -1,10 +1,10 @@
 .bgcfill {
     /* background-color:#FFAA80; */
-    background-color: #C65BCF;
+    background-color: #612897;
 }
 .current-page {
     /* color:#FF5580; */
-    color: #612897;
+    color: #C65BCF;
     pointer-events: none;
 }
 h1, h2 {
@@ -15,20 +15,16 @@ h3 {
     /* color: #FF5580; */
     color: #0C1E7F;
 }
-p {
+h4 {
+    color: #FF008E;
+}
+p, li {
     /* color: #FFAA80; */
     color: #0C1E7F;
 }
 #cr {
     /* color: #FF5580; */
     color: #612897;
-}
-.add-ons, .paw-care {
-    list-style: none;
-    padding: 0;
-}
-.add-ons > li.add-on-item, .paw-care > li.paw-care-item {
-    color: #FF008E;
 }
 #price {
     color: #FF008E;

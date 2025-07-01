@@ -1,11 +1,6 @@
 .bgcfill {
     /* background-color:#FFAA80; */
-    background-color: #C65BCF;
-}
-.current-page {
-    /* color:#FF5580; */
-    color: #612897;
-    pointer-events: none;
+    background-color: #612897;
 }
 h1, h2 {
     /* color: #FF0080; */
