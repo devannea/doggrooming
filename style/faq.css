@@ -1,0 +1,30 @@
+.bgcfill {
+    /* background-color:#FFAA80; */
+    background-color: #C65BCF;
+}
+.current-page {
+    /* color:#FF5580; */
+    color: #612897;
+    pointer-events: none;
+}
+h1, h2 {
+    /* color: #FF0080; */
+    color: #612897;
+}
+h3 {
+    /* color: #FF5580; */
+    color: #0C1E7F;
+}
+p {
+    /* color: #FFAA80; */
+    color: #0C1E7F;
+}
+.accordion-button, #video-link {
+    color: #FF008E;
+}
+.accordion-body{
+    color: #0C1E7F;
+}
+.accordion-body > strong {
+    color: #FF008E;
+}
