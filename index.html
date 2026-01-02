@@ -9,7 +9,7 @@
     <title>Dogs by Devanne</title>
 </head>
 <body>
-  <div class="navbar border-bottom bgcfill">
+  <nav class="navbar navbar-expand-lg navbar-dark border-bottom bgcfill">
     <div class="container justify-content-md-between justify-content-center">
       <a 
         href="./index.html"
@@ -28,7 +28,17 @@
           </svg>
           Dogs by Devanne
         </a>
-        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+        <button
+          class="navbar-toggler border-white text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-expanded="false"
+          aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto text-center text-lg-start">
           <li>
             <a class="nav-link current-page">
               <svg
@@ -45,7 +55,7 @@
               Home
             </a>
           </li>
-          <li>
+          <li class="nav-item">
             <a href="./services.html" class="nav-link text-white">
               <svg 
                 class="bi d-block mx-auto mb-1 bi-scissors"
@@ -58,10 +68,10 @@
                     d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"
                   />
                 </svg>
-                Services
+                One-on-One Experiences
               </a>
             </li>
-            <li>
+            <li class="nav-item">
               <a href="./about.html" class="nav-link text-white">
                 <svg 
                   class="bi d-block mx-auto mb-1 bi-file-person-fill" 
@@ -74,10 +84,10 @@
                       d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2m-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11"
                     />
                   </svg>
-                  About
+                  Meet Your Groomer
                 </a>
               </li>
-              <li>
+              <li class="nav-item">
                 <a href="./contact.html" class="nav-link text-white">
                   <svg 
                     class="bi d-block mx-auto mb-1 bi-chat-dots-fill" 
@@ -90,16 +100,17 @@
                         d="M16 8c0 3.866-3.582 7-8 7a9 9 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7M5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"
                     />
                   </svg>
-                  Contact
+                  Book Appointment
                 </a>
               </li>
             </ul>
+            </div>
           </div>
         </div>
-      </div>
+  </nav>
 
       <main>
-        <div class="container col-xxl-8 px-4 py-1">
+        <div class="container col-xxl-8 px-4 py-2">
             <div class="row flex-lg-row-reverse align-items-center g-5">
               <div class="col-sm-10 col-lg-6">
                 <img src="./assets/images/Devanne-Salty-Paws.png" class="d-block mx-lg-auto img-fluid rounded-4" alt="Devanne with a pomeranian" width="700" height="560" loading="lazy">
@@ -117,7 +128,7 @@
               </div>
             </div>
         </div>
-        <div class="container col-xxl-8 px-4 text-center">
+        <div class="container col-xxl-8 px-4 py-2 text-center">
             <div class="mx-auto text-start">
               <div class="icon d-flex align-items-start mb-2 pt-5">
                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-check-circle-fill me-2 flex-shrink-0" viewBox="0 0 16 16">
@@ -194,7 +205,7 @@
             <h3 class="display-7 fw-bold lh-1 mb-3 border-bottom">What One-on-One Express Grooming Means</h3>
             <p class="fs-5" >Your dog is my sole focus from start to finish. There is no kenneling, no waiting, and no rotating between dogs. This approach minimizes overstimulation, reduces anxiety, and allows me to respond to your dog's comfort cues in real time.</p>
         </div>
-        <div class="container px-4 py-1">
+        <div class="container px-4 py-2">
             <h3 class="display-7 fw-bold lh-1 mb-3 border-bottom">Professional Training That Protects Your Dog</h3>
             <h3>
             <ul>

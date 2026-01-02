@@ -20,7 +20,7 @@ h3 {
 }
 .booking-btn {
     /* background-color: #FF5580; */
-    background-color: #FF008E;
+    background-color: palevioletred;
 }
 .booking-btn:hover {
     background-color: #0188a3;
@@ -32,8 +32,8 @@ h3 {
     color: #0188a3;
 }
 .service-btn:hover {
-    border-color: #FF008E;
-    color: #FF008E;
+    border-color: palevioletred;
+    color: palevioletred;
 }
 p {
     /* color: #FFAA80; */
@@ -41,7 +41,7 @@ p {
 }
 .icon > svg {
     /* fill: #FF5580; */
-    fill: #FF008E;
+    fill: palevioletred;
 }
 #cr {
     /* color: #FF5580; */
