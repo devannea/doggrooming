@@ -1,0 +1,45 @@
+.bgcfill {
+    /* background-color:#FFAA80; */
+    background-color: #85dce7;
+}
+.current-page {
+    /* color:#FF5580; */
+    color: #0188a3;
+    pointer-events: none;
+}
+h1, h2 {
+    /* color: #FF0080; */
+    color: #0188a3;
+}
+h3 {
+    /* color: #FF5580; */
+    color: #0188a3;
+}
+p {
+    /* color: #FFAA80; */
+    color: #0188a3;
+}
+ul, li {
+    color: palevioletred;
+}
+#cr {
+    /* color: #FF5580; */
+    color: white;
+}
+.booking-btn {
+    /* background-color: #FF5580; */
+    background-color: palevioletred;
+}
+.booking-btn:hover {
+    background-color: #0188a3;
+}
+.service-btn {
+    /* border-color: #FFAA80;
+    color: #FFAA80; */
+    border-color: #0188a3;
+    color: #0188a3;
+}
+.service-btn:hover {
+    border-color: palevioletred;
+    color: palevioletred;
+}
