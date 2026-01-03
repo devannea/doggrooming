@@ -1,27 +1,27 @@
 .bgcfill {
     /* background-color:#FFAA80; */
-    background-color: #612897;
+    background-color: #85dce7;
 }
 h1, h2 {
     /* color: #FF0080; */
-    color: #612897;
+    color: #0188a3;
 }
 h3 {
     /* color: #FF5580; */
-    color: #0C1E7F;
+    color: #0188a3;
 }
 p {
     /* color: #FFAA80; */
-    color: #0C1E7F;
+    color: #0188a3;
 }
 .accordion-button, #video-link {
-    color: #FF008E;
+    color: palevioletred;
 }
 .accordion-body{
-    color: #0C1E7F;
+    color: #0188a3;
 }
 .accordion-body > strong {
-    color: #FF008E;
+    color: palevioletred;
 }
 #cr {
     color: white;
