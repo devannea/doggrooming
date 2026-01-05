@@ -55,3 +55,12 @@ p, li {
     border-color: palevioletred;
     color: palevioletred;
 }
+#pricing .card-title {
+    color: palevioletred;
+}
+#pricing .card-text {
+    color: #0188a3;
+}
+#pricing .coat-type {
+    color: #0188a3;
+}
