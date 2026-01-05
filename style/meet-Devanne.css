@@ -55,3 +55,18 @@ ul, li {
     border-color: palevioletred;
     color: palevioletred;
 }
+#certifications .card {
+  background-color: #fff;
+}
+
+#certifications .card-title {
+  font-weight: 600;
+  color: palevioletred;
+}
+#certifications .card-text {
+    color: #0188a3;
+}
+#certifications .btn-outline-secondary {
+  --bs-btn-color: #0188a3;
+  --bs-btn-border-color: #0188a3;
+}
